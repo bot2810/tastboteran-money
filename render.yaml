@@ -1,10 +1,10 @@
 services:
   - type: web
-    name: telegram-bot-web
+    name: telegram-bot
     env: python
     plan: free
     buildCommand: ""
     startCommand: python main.py
     envVars:
       - key: BOT_TOKEN
-        value: your_telegram_bot_token_here
+        value: your_actual_bot_token_here
